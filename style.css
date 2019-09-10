@@ -1,0 +1,14 @@
+/*Essa div com a classe autocomplete não deve ser exibida*/
+div.autocomplete{
+	display: none;
+	border: 1px solid #000;
+	position: absolute;
+}
+/*A cor de fundo da navegação com o teclado*/
+p.sel{
+	background-color: yellow;
+}
+/*A cor de fundo da navegação com o mouse*/
+div.autocomplete:hover{
+	background-color: yellow;
+}
